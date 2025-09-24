@@ -82,7 +82,7 @@ Aquí se crean archivos, se realizan cambios y se confirman (commits).
 
 7. Ver cambios en html-preview
 
-# 🔸 Ejercicio 3: Stash
+## 🔸 Ejercicio 3: Stash
 
 1. Crear una tabla de cursos:
 ```html
