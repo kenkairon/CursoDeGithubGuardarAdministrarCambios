@@ -62,12 +62,8 @@ Aquí se crean archivos, se realizan cambios y se confirman (commits).
 2. Nombre: `CursoDeGithubGuardarAdministrarCambios`
 3. Descripción: *Clase de Git*
 4. Clic en ***Create repository***
-5. Abrir la terminal en VSCode con :
+5. Volver a pagina donde esta creado index.html :
 ```
-```sh
-  code .
-```
-
 6. Iniciar Git.
 ```sh
 git init
@@ -79,7 +75,11 @@ git push -u origin main
 ```
 
 8. Visualizar el archivo en html-preview
+```sh
+https://html-preview.github.io/
 
+https://github.com/kenkairon/CursoDeGithubGuardarAdministrarCambios/blob/main/pagina/index.html
+```
 ## Ejercicio 2: Área de Staging
 
 1. Agregar un nuevo feature: menú de redes sociales.
@@ -92,12 +92,18 @@ git push -u origin main
 </ul>
 ```
 2. Mover los cambios del área de trabajo al staging (git add).
-
+```sh
+git add .
+```
 3. Agregar un nuevo cambio: YouTube.
 ```html
 <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
 ```
 4. Regresar los cambios de staging al área de trabajo.
+```sh
+git reset
+git status
+```
 
 5. Volver a preparar (staging), confirmar y mover al repositorio local.
 
