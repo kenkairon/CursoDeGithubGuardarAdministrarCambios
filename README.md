@@ -193,7 +193,7 @@ git stash list
 git stash apply 1
 git stash apply 0
 ```
-9.Para Eliminar 1 stash
+9.Para Eliminar 1 stash en la posicion 1
 ```sh
 git stash drop stash@{1}
 ```
@@ -201,6 +201,11 @@ git stash drop stash@{1}
 10. Eliminar todos los stash
 ```sh
 git stash clear
+```
+
+11. Para Mayor especificación del stash
+```sh
+git stash show
 ```
 
 
