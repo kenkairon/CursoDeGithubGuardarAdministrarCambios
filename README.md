@@ -154,6 +154,16 @@ git commit -m "agregar imagen"
 git push
 ```
 5. Recuperar stash y continuar la tabla:
+```sh
+git stash list
+```
+```sh
+se va ver esto si solo tengo un stash = stash@{0}: On main: mi tabla
+```
+6. Para regresar a los cambios que estaba trabajando
+```sh
+git stash apply 0
+```
 
 ```html
 <tr
@@ -163,7 +173,11 @@ git push
 </tr>
 ```
 6. Subir cambios al remoto.
-
+```sh
+git add .
+git commit -m "tabla"
+git push
+```
 7. Crear dos stash más:
 
 ```html
