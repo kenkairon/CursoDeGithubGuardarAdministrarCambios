@@ -182,8 +182,10 @@ git push
 
 ```html
 <h1 style="border:2px solid Tomato;">Hello World</h1>
-<h1 style="background-color:#ff6347;">Este es un texto</h1>
 
+```
+```sh
+git stash -m "Texto con Borde"
 ```
 
 
