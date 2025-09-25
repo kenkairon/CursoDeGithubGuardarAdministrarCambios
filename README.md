@@ -193,5 +193,14 @@ git stash list
 git stash apply 1
 git stash apply 0
 ```
+9.Para Eliminar 1 stash
+```sh
+git stash drop stash{1}
+```
+
+10. Eliminar todos los stash
+```sh
+git stash clear
+```
 
 
