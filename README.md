@@ -187,5 +187,11 @@ git push
 ```sh
 git stash -m "Texto con Borde"
 ```
+8. Para volver a trabajar 
+```sh
+git stash list
+git stash apply 1
+git stash apply 0
+```
 
 
