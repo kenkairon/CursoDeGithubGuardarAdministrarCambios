@@ -148,11 +148,15 @@ https://github.com/kenkairon/CursoDeGithubGuardarAdministrarCambios/blob/main/pa
 
 ```
 4. Mover a staging → repositorio local → remoto.
-
+```sh
+git add .
+git commit -m "agregar imagen"
+git push
+```
 5. Recuperar stash y continuar la tabla:
 
 ```html
-<tr>
+<tr
   <td>PHP</td>
   <td>10 clases</td>
   <td>2 horas</td>
