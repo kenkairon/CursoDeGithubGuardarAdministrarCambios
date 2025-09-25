@@ -63,6 +63,7 @@ Aquí se crean archivos, se realizan cambios y se confirman (commits).
 3. Descripción: *Clase de Git*
 4. Clic en ***Create repository***
 5. Abrir la terminal en VSCode con :
+```
 ```sh
   code .
 ```
