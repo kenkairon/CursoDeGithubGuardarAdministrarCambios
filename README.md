@@ -35,7 +35,11 @@ Aquí se crean archivos, se realizan cambios y se confirman (commits).
 
 ## 🔸 Ejercicio 1: Flujo básico
 1. Repasar comandos básicos.  
-2. Crear una carpeta llamada **página**.  
+2. Crear una carpeta llamada **página**.
+ ```sh
+ mkdir pagina
+ touch index.html
+ ```
 3. Dentro de la carpeta, crear un archivo llamado **index.html**.  
 4. Agregar el siguiente código:
 
@@ -52,9 +56,27 @@ Aquí se crean archivos, se realizan cambios y se confirman (commits).
   </body>
 </html>
 ```
-5. Crear un repositorio llamado mi_primera_pagina.
+5. Crear un repositorio llamado CursoDeGithubGuardarAdministrarCambios.
+```sh
+1. En GitHub, haz clic en **New**`
+2. Nombre: `CursoDeGithubGuardarAdministrarCambios`
+3. Descripción: *Clase de Git*
+4. Clic en ***Create repository***
+5. Abrir la terminal en VSCode con :
+  ```sh
+    code .`sh
+  ```
+```sh
 6. Iniciar Git.
+```sh
+git init
+```
 7. Agregar cambios, confirmar (commit) y hacer push.
+```sh
+git commit -m "mi primera pagina
+git push -u origin main
+```
+
 8. Visualizar el archivo en html-preview
 
 ## Ejercicio 2: Área de Staging
