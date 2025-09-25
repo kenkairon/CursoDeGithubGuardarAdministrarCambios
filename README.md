@@ -64,16 +64,16 @@ Aquí se crean archivos, se realizan cambios y se confirman (commits).
 4. Clic en ***Create repository***
 5. Abrir la terminal en VSCode con :
   ```sh
-    code .`sh
+    code .
   ```
-```sh
+
 6. Iniciar Git.
 ```sh
 git init
 ```
 7. Agregar cambios, confirmar (commit) y hacer push.
 ```sh
-git commit -m "mi primera pagina
+git commit -m "mi primera pagina"
 git push -u origin main
 ```
 
