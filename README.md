@@ -106,11 +106,20 @@ git status
 ```
 
 5. Volver a preparar (staging), confirmar y mover al repositorio local.
-
+```sh
+git add .
+```
 6. Hacer push al repositorio remoto.
-
+```
+git commit -m "Agregar Cambios nuevos"
+git push
+```
 7. Ver cambios en html-preview
+```sh
+https://html-preview.github.io/
 
+https://github.com/kenkairon/CursoDeGithubGuardarAdministrarCambios/blob/main/pagina/index.html
+```
 ## 🔸 Ejercicio 3: Stash
 
 1. Crear una tabla de cursos:
